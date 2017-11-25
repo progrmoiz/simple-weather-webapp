@@ -2,6 +2,7 @@
 A simple app which shows weather based on your location.
 
 See a live version here http://simple-weather.progrmoiz.surge.sh/
+Live demo may not work properly because geolocation api require https now.
 
 ## Feature
 - Temperature based on location
