@@ -1,4 +1,4 @@
-# simple-weather-webapp
+# Simple Weather Webapp
 A simple app which shows weather based on your location.
 
 See a live version here http://simple-weather.progrmoiz.surge.sh/
