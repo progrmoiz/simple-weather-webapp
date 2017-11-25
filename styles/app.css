@@ -1,0 +1,128 @@
+body {
+  background: #212121;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header__heading {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1em;
+  text-decoration: none;
+  position: relative;
+  line-height: 1;
+  z-index: 10;
+  margin: 0;
+}
+
+.weather {
+    padding: 1rem;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Lato', sans-serif;
+    float: left;
+    position: relative;
+}
+
+.weather__icon {
+  float: left;
+  display: inline-block;
+}
+
+.weather__description {
+    float: left;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.weather__temperature {
+  clear: left;
+  font-size: 4em;
+  color: #fff;
+  line-height: 1.2em;
+  float: left;
+}
+
+.weather__temperature-toggler {
+  text-decoration: none;
+  color: #2196F3;
+}
+
+.weather__temperature-toggler--active {
+  color: #fff;
+}
+
+.weather__location {
+    font-size: 1.3em;
+    color: #fff;
+    clear: left;
+    float: left;
+}
+
+
+.loader{
+  margin: 0 0 2em;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1em;
+  display: inline-block;
+  vertical-align: top;
+  background: #212121;
+  height: 100%;
+  padding: 7em;
+}
+
+/* ===============================
+   Weather Icon
+   =============================== */
+.weather-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  width: 128px;
+  height: 128px;
+  background-image: url(../images/_spritesheet-128.png);
+}
+
+
+.weather-icon--chanceflurries { background-position: -5px -5px; }
+.weather-icon--chancerain { background-position: -143px -5px; }
+.weather-icon--chancesleet { background-position: -281px -5px; }
+.weather-icon--chancesnow { background-position: -419px -5px; }
+.weather-icon--chancetstorms { background-position: -5px -143px; }
+.weather-icon--clear { background-position: -143px -143px; }
+.weather-icon--cloudy { background-position: -281px -143px; }
+.weather-icon--flurries { background-position: -419px -143px; }
+.weather-icon--fog { background-position: -5px -281px; }
+.weather-icon--hazy { background-position: -143px -281px; }
+.weather-icon--mostlycloudy { background-position: -281px -281px; }
+.weather-icon--mostlysunny { background-position: -419px -281px; }
+.weather-icon--partlycloudy { background-position: -5px -419px; }
+.weather-icon--partlysunny { background-position: -143px -419px; }
+.weather-icon--rain { background-position: -281px -419px; }
+.weather-icon--sleet { background-position: -419px -419px; }
+.weather-icon--snow { background-position: -557px -5px; }
+.weather-icon--sunny { background-position: -557px -143px; }
+.weather-icon--tstorms { background-position: -557px -281px; }
+.weather-icon--unknown { background-position: -557px -419px; }
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
