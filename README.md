@@ -1,6 +1,8 @@
 # simple-weather-webapp
 A simple app which shows weather based on your location.
 
+See a live version here http://simple-weather.progrmoiz.surge.sh/
+
 ## Feature
 - Temperature based on location
 - Toggle C|F
